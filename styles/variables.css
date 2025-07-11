@@ -1,4 +1,18 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --min-height: 668px;
+  --regular-font-size: 18px;
+  --regular-line-height: 100%;
+  --regular-gap: 10px;
+  --dec-gap: clamp(10px, 2.65vw, 20px);
+  --min-height: 668px;
+  --header-margin-left: min(10px, 20px - 2.6vw);
+  --section-child-margin: 40px;
+  --corner-thickness: 1px;
+  --rec_empty_x_pos: 30px;
+  --regular-pink: #ff8dcb;
+  --title-pink: #ffc2e6;
+  --almost-white-bg: #ffffff;
+  --actual-red: #ff0070;
+  --indicative-black: #000e2e;
+  --almost-black: #353430;
+}
