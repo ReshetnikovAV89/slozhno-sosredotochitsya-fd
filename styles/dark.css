@@ -1,59 +1,53 @@
 :root.theme-dark {
-  --page-bg-color: var(--indicative-black);
-  --accent-color: var(--actual-red);
+  --page-bg-color: #000e2e;
+  --accent-color: #ff0070;
   --title-color: #db00ff;
-  --header-text-bg-color: var(--actual-red);
-  --header_text-color: var(--indicative-black);
-  --question-bg-color: var(--indicative-black);
-  --question-color: var(--actual-red);
-  --replay-title-bg-color: var(--actual-red);
-  --replay-title-color: var(--indicative-black);
-  --replay-text-bg-color: var(--indicative-black);
-  --replay-text-color: #f1b2ce;
-  --council-title-bg-color: var(--actual-red);
-  --council-title-color: var(--indicative-black);
-  --button-color: var(--actual-red);
-  --rec-color: var(--actual-red);
+  --header-text-bg-color: #ff0070;
+  --header__text-color: #000e2e;
+  --question-bg-color: #000e2e;
+  --question-color: #ff0070;
+  --answer-title-bg-color: #ff0070;
+  --answer-title-color: #000e2e;
+  --answer-text-bg-color: #000e2e;
+  --answer-text-color: #f1b2ce;
+  --advice-title-bg-color: #ff0070;
+  --advice-title-color: #000e2e;
+  --button-color: #ff0070;
+  --rec-color: #ff0070;
   --border-color-opacity: #ff007066;
   --background-image: url("../images/cover-image-dark.png");
-  --deco-color: var(--actual-red);
+  --decoration-color: #ff0070;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --page-bg-color: var(--indicative-black);
-    --accent-color: var(--actual-red);
+    --page-bg-color: #000e2e;
+    --accent-color: #ff0070;
     --title-color: #db00ff;
-    --header-text-bg-color: var(--actual-red);
-    --header-text-color: var(--indicative-black);
-    --question-bg-color: var(--indicative-black);
-    --question-color: var(--actual-red);
-    --replay-title-bg-color: var(--actual-red);
-    --replay-title-color: var(--indicative-black);
-    --replay-text-bg-color: var(--indicative-black);
-    --replay-text-color: #f1b2ce;
-    --council-title-bg-color: var(--actual-red);
-    --council-title-color: var(--indicative-black);
-    --button-color: var(--actual-red);
-    --rec-color: var(--actual-red);
+    --header-text-bg-color: #ff0070;
+    --header-text-color: #000e2e;
+    --question-bg-color: #000e2e;
+    --question-color: #ff0070;
+    --answer-title-bg-color: #ff0070;
+    --answer-title-color: #000e2e;
+    --answer-text-bg-color: #000e2e;
+    --answer-text-color: #f1b2ce;
+    --advice-title-bg-color: #ff0070;
+    --advice-title-color: #000e2e;
+    --button-color: #ff0070;
+    --rec-color: #ff0070;
     --border-color-opacity: #ff007066;
     --background-image: url("../images/cover-image-dark.png");
-    --deco-color: var(--actual-red);
+    --decoration-color: #ff0070;
   }
 
-  .rec_empty::before {
-    display: inline-block;
-  }
-
-  .rec_empty::after {
+  .rec__empty::before,
+  .rec__empty::after {
     display: inline-block;
   }
 }
 
-.theme-dark .rec_empty::before {
-  display: inline-block;
-}
-
-.theme-dark .rec_empty::after {
+.theme-dark .rec__empty::before,
+.theme-dark .rec__empty::after {
   display: inline-block;
 }
